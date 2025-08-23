@@ -30,7 +30,7 @@ Algorithms Used:
 st.markdown(data)
 
 
-st.image('https://i0.wp.com/asianheartinstitute.org/wp-content/uploads/2024/11/Understanding-How-Heart-Disease-Impacts-Your-Body.jpg?fit=1572%2C917&ssl=1')
+st.image('https://media.sciencephoto.com/image/f0180653/800wm/F0180653-Boy_s_heart,_illustration.jpg')
 
 with open('heart_disease_pred.pkl','rb') as f:
     chatgpt = pickle.load(f)
@@ -82,6 +82,6 @@ else:
     place.empty()
     st.warning(body)
     progress_bar = st.progress(0)
-
+st.markdown('Designed by: **SHIVAM VIJ**') 
 
 
